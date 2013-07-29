@@ -1,7 +1,7 @@
 <IfModule mod_rewrite.c>
 RewriteEngine on
 RewriteCond $1 !^(index\.php|css)
-RewriteRule ^(.*)$ /patches-welcome/index.php/$1 [L]
+RewriteRule ^(.*)$ /patches_welcome/index.php/$1 [L]
 </IfModule>
 
 #

@@ -9,6 +9,9 @@ class Update extends CI_Controller {
 	}
 	
 	public function index()	{
+	    if(!$this->input->is_cli_request())
+	        redirect('/');
+	    
 		$urls = $this->config->item('search_urls');
 		
 		foreach ($urls as $project => $url) {
