@@ -3,9 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<title>Patches welcome</title>
-	<link rel="stylesheet" href="css/bootstrap.css" />
-	<link rel="stylesheet" href="css/bootstrap-responsive.css" />
-	<link rel="stylesheet" href="css/docs.css" />
+	<link rel="stylesheet" href="<?php echo site_url('css/bootstrap.css'); ?>" />
+	<link rel="stylesheet" href="<?php echo site_url('css/bootstrap-responsive.css'); ?>" />
+	<link rel="stylesheet" href="<?php echo site_url('css/docs.css'); ?>" />
 </head>
 <body>
 
